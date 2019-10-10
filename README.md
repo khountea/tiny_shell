@@ -1,29 +1,11 @@
-# Foobar
+# Tiny Shell
 
-Foobar is a Python library for dealing with word pluralization.
+A very tiny shell by Sokhountea Sy
 
-## Installation
+## Brief Into
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+As part of an assignment in my course Operating Systems, I developed a tiny shell using C. It has very minimal functionality. Implemented chdir and history as internal commands. The chdir would change the current working directory of the process and history would list the last 100 commands that were executed in the tiny shell. SIGNINT signal is handled differently by asking the user for confirmation to terminate the shell, and SIGTSTP signal is ignored.
 
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Files
+* README.md - This file
+* tiny_shell.c - The heart of this project
