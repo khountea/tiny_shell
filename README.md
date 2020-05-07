@@ -1,6 +1,6 @@
 # Tiny Shell
 
-A very tiny shell by Sokhountea Sy
+A very tiny shell 
 
 ## Brief Into
 
